@@ -1,6 +1,7 @@
 body {
     background-color: darkslategrey;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
 }
 
 h1 {
@@ -19,11 +20,13 @@ a:hover {
 }
 
 .assign {
-    display: flex;
+    display: block;
     margin: 10px;
     padding: 10px;
     background:blanchedalmond;
     border-radius: 20px;
+    width: 20%;
+    box-shadow: 8px 8px skyblue;
 }
 
 .assign img {
