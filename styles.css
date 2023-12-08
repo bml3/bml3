@@ -1,36 +1,39 @@
 body {
-    background-color: darkslategrey;
+    background-color: #DEC2A4;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
-    color: cadetblue;
+    color: #35465E;
     text-align: center;
+    width: 100%;
+    display: block;
 }
 
 a {
     text-decoration: none;
-    color: blueviolet;
+    color: #35465E;
 }
 
 a:hover {
     text-decoration: none;
-    color: whitesmoke;
+    color: #A5BDDF;
 }
 
 .assign {
     display: block;
     margin: 10px;
     padding: 10px;
-    background:blanchedalmond;
+    background:#DED1A4;
     border-radius: 20px;
     width: 20%;
-    box-shadow: 8px 8px skyblue;
+    box-shadow: 8px 8px #5E5535;
 }
 
 .assign img {
     width: 200px;
     padding: 10px;
-    border: 2px solid blueviolet;
+    border: 2px solid #A5BDDF;
 }
